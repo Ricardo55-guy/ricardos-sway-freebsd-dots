@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo pkg update
-sudo pkg install -y sway wofi firefox nautilus git ufetch
+sudo pkg install -y sway wofi firefox nautilus git ufetch foot fish
 
 sudo sysrc seatd_enable="YES"
 sudo service seatd start
@@ -15,6 +15,8 @@ cp -r scripts ~/.config/sway/
 chmod +x ~/.config/sway/scripts/*
 mkdir -p ~/Pictures/Wallpapers/
 cp flowers.jpg /Pictures/Wallpapers/
+cp -r fish ~/.config/
+cp -r foot ~/.config/
 
 echo "==========================================================="
 echo "                  Installation complete!                   "
