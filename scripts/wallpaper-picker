@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Set your wallpaper directory
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
+
+# Exit if directory does not exist
+if [ ! -d "$WALLPAPER_DIR" ]; then
+    echo "Directory $WALLPAPER_DIR does not exist."
+    exit 1
+fi
+
+# List files and pipe into wofi launcher
+SELECTED_WALLPAPER=$(ls "$WALLPAPER_DIR" | wofi --dmenu --prompt "Select Wallpaper:")
+
+# Exit if no selection was made
+if [ -z "$SELECTED_WALLPAPER" ]; then
+    exit 0
+fi
+
+# Full path to the image
+FULL_PATH="$WALLPAPER_DIR/$SELECTED_WALLPAPER"
+
+# Kill existing wallpaper processes to clean up memory
+pkill swaybg
+
+# Apply the new wallpaper using swaybg
+swaybg -m fill -i "$FULL_PATH" &
