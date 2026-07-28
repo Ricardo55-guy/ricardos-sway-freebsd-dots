@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo pkg update
-sudo pkg install -y sway wofi firefox nautilus git ufetch foot fish dejavu
+sudo pkg install -y sway wofi firefox nautilus git ufetch foot fish dejavu swayidle
 
 sudo sysrc seatd_enable="YES"
 sudo service seatd start
