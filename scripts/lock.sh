@@ -1,0 +1,23 @@
+#!/bin/sh
+swaylock \
+    --image /usr/local/share/backgrounds/sway/luis-paico-NNTGEoohoE4-unsplash.jpg \
+    --scaling fill \
+    --indicator-idle-visible \
+    --indicator-radius 100 \
+    --indicator-thickness 10 \
+    --ring-color 1a0000 \
+    --ring-clear-color f62b5a \
+    --ring-ver-color f62b5a \
+    --ring-wrong-color 7a1530 \
+    --inside-color 1a0000 \
+    --inside-clear-color f62b5a \
+    --inside-ver-color 1a0000 \
+    --inside-wrong-color 7a1530 \
+    --key-hl-color f62b5a \
+    --separator-color 00000000 \
+    --line-color 1a0000 \
+    --text-color e0e0e0 \
+    --text-clear-color 1a0000 \
+    --text-ver-color e0e0e0 \
+    --text-wrong-color e0e0e0 \
+    --font "DejaVu Sans Mono"
