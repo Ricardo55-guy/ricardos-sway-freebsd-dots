@@ -28,7 +28,7 @@ set $menu "wmenu-run -N 1a000055 -n e0e0e0 -M 1a000055 -m cc0000 -S cc000099 -s 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/local/share/backgrounds/sway/)
-output * bg /usr/local/share/backgrounds/sway/luis-paico-NNTGEoohoE4-unsplash.jpg fill
+output * bg ~/Pictures/Wallpapers/flowers.jpg fill
 #
 # Example configuration:
 #
