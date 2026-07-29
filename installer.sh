@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo pkg update
-sudo pkg install -y sway wofi firefox-esr-153.0,2 nautilus git ufetch foot fish dejavu swayidle wmenu drm-kmod
+sudo pkg install -y sway wofi firefox-esr-153.0,2 nautilus git ufetch foot fish dejavu swayidle wmenu drm-kmod grim
 
 sudo sysrc seatd_enable="YES"
 sudo service seatd start
