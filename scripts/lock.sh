@@ -1,6 +1,6 @@
 #!/bin/sh
 swaylock \
-    --image /usr/local/share/backgrounds/sway/luis-paico-NNTGEoohoE4-unsplash.jpg \
+    --image ~/Pictures/Wallpapers/ \
     --scaling fill \
     --indicator-idle-visible \
     --indicator-radius 100 \
