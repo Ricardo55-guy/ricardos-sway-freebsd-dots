@@ -14,7 +14,7 @@ cp -r config ~/.config/sway/
 cp -r scripts ~/.config/sway/
 chmod +x ~/.config/sway/scripts/*
 mkdir -p ~/Pictures/Wallpapers/
-cp flowers.jpg /Pictures/Wallpapers/
+cp flowers.jpg ~/Pictures/Wallpapers/
 cp -r fish ~/.config/
 cp -r foot ~/.config/
 
