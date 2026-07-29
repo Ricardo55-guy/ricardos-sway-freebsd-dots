@@ -6,6 +6,8 @@ sudo pkg install -y sway wofi firefox nautilus git ufetch foot fish dejavu swayi
 sudo sysrc seatd_enable="YES"
 sudo service seatd start
 
+sudo pw groupadd input
+sudo pw groupadd video
 sudo pw groupmod video -m $(whoami)
 sudo pw groupmod input -m $(whoami)
 
