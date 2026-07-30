@@ -26,4 +26,4 @@ echo "  You can launch your desktop environment by typing: sway  "
 echo "==========================================================="
 echo "You can also use the extra wallpapers by copying them into the newly created ~/Pictures/Wallpapers."
 echo "Also, please load the drivers if you haven't by:
-echo "eg. for Intel, kldload i915kms for AMD, kldload amdgpu." 
+echo "eg, for Intel, kldload i915kms for AMD, kldload amdgpu." 
